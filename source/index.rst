@@ -23,3 +23,4 @@ Data Structures and Algorithms for Python
 
    arrays/arrays.rst
    arrays/operations.rst
+   arrays/python.rst
