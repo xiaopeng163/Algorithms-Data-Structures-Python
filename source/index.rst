@@ -27,3 +27,10 @@ Data Structures and Algorithms for Python
    arrays/reverse_array.rst
    arrays/integer_reversion.rst
    arrays/palindrome.rst
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :caption: Data Structures - Linked List
+
+   linked_list/intro.rst
