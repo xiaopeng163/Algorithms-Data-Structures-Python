@@ -33,4 +33,5 @@ Data Structures and Algorithms for Python
    :titlesonly:
    :caption: Data Structures - Linked List
 
-   linked_list/intro.rst
+   linked_list/linked_list.rst
+   linked_list/doubly_linked_list.rst
