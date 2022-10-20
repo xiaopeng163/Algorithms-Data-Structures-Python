@@ -27,6 +27,8 @@ Data Structures and Algorithms for Python
    arrays/reverse_array.rst
    arrays/integer_reversion.rst
    arrays/palindrome.rst
+   arrays/dutch_flag.rst
+   arrays/trap_rain_water.rst
 
 .. toctree::
    :hidden:
