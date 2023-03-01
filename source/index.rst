@@ -29,6 +29,7 @@ Data Structures and Algorithms for Python
    arrays/palindrome.rst
    arrays/dutch_flag.rst
    arrays/trap_rain_water.rst
+   arrays/anagram.rst
 
 .. toctree::
    :hidden:

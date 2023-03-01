@@ -7,6 +7,8 @@ Algorithm
 
 An algorithm is a finite set of instructions, those if followed, accomplishes a particular task. It is not language specific, we can use any language and symbols to represent instructions.
 
+一个算法是一组有限的指令，如果按照它们所规定的顺序执行，可以完成特定的任务。它不受语言限制，我们可以使用任何语言和符号来表示指令
+
 The criteria of an algorithm
 --------------------------------
 
@@ -15,6 +17,12 @@ The criteria of an algorithm
 - Definiteness: Each instruction is clear and unambiguous.
 - Finiteness: In an algorithm, it will be terminated after a finite number of steps for all different cases.
 - Effectiveness: Each instruction must be very basic, so the purpose of those instructions must be very clear to us.
+
+- 输入：零个或多个输入由外部提供给算法。
+- 输出：算法会产生至少一个输出。
+- 明确性：每个指令都是清晰明确的，没有歧义。
+- 有限性：对于所有不同情况，算法将在有限的步骤之后终止。
+- 有效性：每个指令都必须非常基础，这样它们的目的就非常明确。
 
 Analysis of algorithms
 ----------------------------
@@ -38,10 +46,28 @@ Space Complexity of an Algorithm
 Space complexity is defining as the process of defining a formula for prediction of how much memory space is required for the successful execution of the algorithm. The memory space is generally considered as the primary memory.
 
 
-.. warning:: 
+.. warning::
 
     It is not possible to measure the exact running time of an algorithm, because the time required by an algorithm depends on the hardware and software environment in which it is executed.
 
     we should measure the number of operations performed by an algorithm. The number of operations is a good approximation of the time required by an algorithm.
 
 https://en.wikipedia.org/wiki/Algorithm
+
+
+常用算法
+------------
+
+
+Search 搜索
+~~~~~~~~~~~~~~~~~~~~~
+
+例如 Binary search （二分查找）
+
+著名的 BFS（广度优先） DFS（深度优先）
+
+Sorting 排序
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+例如 Bubble sort （冒泡排序）
+
