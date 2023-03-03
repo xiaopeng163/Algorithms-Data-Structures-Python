@@ -22,3 +22,9 @@ There are seven common types of big O notations. These include: (orderd from bes
    :width: 700px
 
 参考 https://www.bigocheatsheet.com/
+
+
+ 常用算法的Big O
+----------------
+
+请参考 https://www.bigocheatsheet.com/

@@ -10,3 +10,4 @@ Solution Steps
 
 .. image:: ../_static/array/reverse-an-array.gif
    :width: 700px
+

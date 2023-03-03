@@ -31,3 +31,6 @@ LeetCode
 -----------
 
 https://leetcode.com/problems/sort-colors/
+
+
+solution in Python ``code/array/dutch_flag.py``

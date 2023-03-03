@@ -21,9 +21,9 @@ Data Structures and Algorithms for Python
    :titlesonly:
    :caption: Data Structures - Array
 
-   arrays/arrays.rst
-   arrays/operations.rst
-   arrays/python.rst
+   arrays/1-arrays.rst
+   arrays/2-operations.rst
+   arrays/3-python&c++.rst
    arrays/reverse_array.rst
    arrays/integer_reversion.rst
    arrays/palindrome.rst

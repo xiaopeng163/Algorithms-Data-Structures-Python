@@ -1,5 +1,5 @@
-Arrays in Python
-=====================
+Arrays in Python & C++
+==============================
 
 In Python, arrays are called ``lists``. Lists are a very powerful data structure that can be used to store a wide variety of data.
 Lists can be used to store numbers, strings, other lists, and even functions. Lists are also very flexible, as they can be resized and their contents can be changed.

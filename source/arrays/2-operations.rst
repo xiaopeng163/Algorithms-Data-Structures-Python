@@ -2,7 +2,7 @@ Operations
 ==============
 
 
-adding item (添加元素)
+1. Adding item (添加元素)
 ---------------------------
 
 末尾添加
@@ -36,8 +36,8 @@ Array预先分配的内存空间满了怎么办？
 .. image:: ../_static/array/array_insert.gif
    :width: 700px
 
-Deleting Item（删除元素）
----------------------------
+2. Deleting Item（删除元素）
+------------------------------
 
 末尾删除
 ~~~~~~~~~

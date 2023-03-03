@@ -3,10 +3,24 @@ using namespace std;
 
 int main()
 {
-    int arr[4] = {1, 3, 5, 3}; // initializing an array of size 4
+    int array[4] = {1, 3, 5, 3}; // initializing an array of size 4
+    int *ptr; // declaring a pointer
 
-    cout << arr[3] << "\n"; // gives the element at index 3
-    cout << arr[2] << "\n"; // gives the element at index 2
+    cout << array[3] << "\n"; // gives the element at index 3
+    cout << array[2] << "\n"; // gives the element at index 2
 
-    return 0;
+
+	cout << "==================================================\n";
+	cout << "Displaying the Address of The Pointer of an Array";
+	cout << "\n=================================================\n\n";
+
+    int i;
+	for (i = 0; i < 4; i++)
+	{
+		cout << "Address Of " << array[i] << " Using Array is ===> " << &array[i] << endl;
+	}
+
+	cout << "\n========================================\n";
+	return 0;
+
 }
