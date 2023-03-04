@@ -24,12 +24,8 @@ Data Structures and Algorithms for Python
    arrays/1-arrays.rst
    arrays/2-operations.rst
    arrays/3-python&c++.rst
-   arrays/reverse_array.rst
-   arrays/integer_reversion.rst
-   arrays/palindrome.rst
-   arrays/dutch_flag.rst
-   arrays/trap_rain_water.rst
-   arrays/anagram.rst
+   arrays/4-reverse_array.rst
+
 
 .. toctree::
    :hidden:

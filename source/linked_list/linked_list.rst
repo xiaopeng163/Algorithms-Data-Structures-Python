@@ -1,15 +1,9 @@
 Linked Lists
 ==============
 
-https://www.geeksforgeeks.org/data-structures/linked-list/?ref=lbp
+链表（Linked List）是一种常见的数据结构，用于存储一系列元素，每个元素由一个值和一个指向下一个元素的指针组成。
 
-A linked list is a data structure that consists of a sequence of nodes.
-Each node contains a value and a pointer to the next node in the sequence. 
-The first node in the sequence is called the head of the list.
-The last node in the sequence is called the tail of the list. 
-The tail of the list points to a null value, which indicates that the list ends there. 
-
-The following diagram shows a linked list with three nodes.  
+链表可以分为单向链表和双向链表。在单向链表中，每个节点都只有一个指针，指向下一个节点；而在双向链表中，每个节点都有两个指针，一个指向前一个节点，一个指向后一个节点。
 
 .. code-block:: none
 
