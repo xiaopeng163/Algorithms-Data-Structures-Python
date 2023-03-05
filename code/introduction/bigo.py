@@ -1,7 +1,6 @@
-def print_items(n):
+def O_of_n(n):
+    for i in range(n):
+        print(i)
 
-  for i in range(n):
-      print(i)
 
-
-print_items(10)
+O_of_n(10)
