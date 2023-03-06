@@ -17,7 +17,8 @@ def dutch_flag_problem(nums, pivot=1):
             j += 1
     return nums
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
 
     nums = [1, 0, 2, 2, 1, 0, 0, 2, 1]
     print(dutch_flag_problem(nums, 1))

@@ -13,10 +13,10 @@ class LinkedList:
     def print_list(self):
         temp = self.head
         while temp:
-            print(temp.data, end=' ')
+            print(temp.data, end=" ")
             temp = temp.next
             if temp:
-                print('->', end=' ')
+                print("->", end=" ")
         print()
 
     def append(self, value):
@@ -46,7 +46,7 @@ class LinkedList:
         self.head = prev
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     linked_list = LinkedList()
     linked_list.append(1)

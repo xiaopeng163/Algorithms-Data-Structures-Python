@@ -1,4 +1,3 @@
-
 def reverse_array(arr):
     start_index = 0
     end_index = len(arr) - 1

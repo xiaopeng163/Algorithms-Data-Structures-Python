@@ -7,30 +7,36 @@ Data Structures and Algorithms for Python
 =============================================================
 
 
+.. note::
+
+   此文档正在编写中。
+
+
+Contents
+-------------------
+
 .. toctree::
-   :hidden:
-   :titlesonly:
+   :maxdepth: 2
    :caption: Getting Started
 
-   introduction/data_structure
-   introduction/intro.rst
-   introduction/bigo.rst
+   1-introduction/1-data_structure
+   1-introduction/2-algorithms.rst
+   1-introduction/3-bigo.rst
 
 .. toctree::
-   :hidden:
-   :titlesonly:
+   :maxdepth: 2
    :caption: Data Structures - Array
 
-   arrays/1-arrays.rst
-   arrays/2-operations.rst
-   arrays/3-python&c++.rst
-   arrays/4-reverse_array.rst
+   2-arrays/1-arrays.rst
+   2-arrays/2-operations.rst
+   2-arrays/3-python&c++.rst
+   2-arrays/4-reverse_array.rst
 
 
 .. toctree::
-   :hidden:
-   :titlesonly:
+   :maxdepth: 2
    :caption: Data Structures - Linked List
 
-   linked_list/linked_list.rst
-   linked_list/doubly_linked_list.rst
+   3-linked_list/1-linked_list.rst
+   3-linked_list/2-operations.rst
+   3-linked_list/3-linked_list_py.rst

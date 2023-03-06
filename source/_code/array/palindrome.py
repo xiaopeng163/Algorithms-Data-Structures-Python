@@ -14,6 +14,7 @@ def is_palindrome(s):
         end_index -= 1
     return True
 
+
 if __name__ == "__main__":
     s = "abba"
     print(is_palindrome(s))

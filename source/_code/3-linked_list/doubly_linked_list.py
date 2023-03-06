@@ -1,5 +1,4 @@
 class Node:
-
     def __init__(self, data):
         self.data = data
         self.next = None
@@ -7,7 +6,6 @@ class Node:
 
 
 class DoublyLinkedList:
-    
     def __init__(self):
         self.head = None
         self.tail = None
@@ -20,17 +18,16 @@ class DoublyLinkedList:
             self.head = new_node
             self.tail = new_node
             return
-        
+
         # when the list is not empty
         new_node.prev = self.tail
         self.tail.next = new_node
         self.tail = new_node
 
-
     def traverse_forward(self):
         temp = self.head
         while temp:
-            print(temp.data, end=' ')
+            print(temp.data, end=" ")
             temp = temp.next
         print()
 
@@ -53,13 +50,14 @@ class DoublyLinkedList:
             current.next = prev
             current.prev = next
             return _reverse_recursive(next, current)
+
         self.head = _reverse_recursive(self.head, None)
 
     def __str__(self):
         temp = self.head
-        result = ''
+        result = ""
         while temp:
-            result += str(temp.data) + ' '
+            result += str(temp.data) + " "
             temp = temp.next
         return result
 
@@ -67,7 +65,7 @@ class DoublyLinkedList:
         return self.__str__()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     dlist = DoublyLinkedList()
     dlist.insert(1)

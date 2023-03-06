@@ -4,6 +4,7 @@
 首先对两个字符串分别进行排序，如果它们排序后相等，那么这两个字符串就是anagram。
 """
 
+
 def is_anagram(s1, s2):
 
     if len(s1) != len(s2):
@@ -22,6 +23,7 @@ def is_anagram(s1, s2):
 """
 
 from collections import Counter
+
 
 def is_anagram1(s1, s2):
     return Counter(s1) == Counter(s2)
