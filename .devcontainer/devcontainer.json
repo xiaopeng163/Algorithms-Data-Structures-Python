@@ -20,5 +20,5 @@
         }
     },
     "remoteUser": "devcontainer",
-    "postCreateCommand": "sh -i -c 'pre-commit install'"
+    "postCreateCommand": "zsh -i -c 'pre-commit install'"
 }
