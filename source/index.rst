@@ -40,3 +40,18 @@ Contents
    3-linked_list/1-linked_list.rst
    3-linked_list/2-operations.rst
    3-linked_list/3-linked_list_py.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data Structures - Stacks & Queues
+
+   4-stacks_queues/1-stacks.rst
+   4-stacks_queues/2-queues.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data Structures - Tree
+
+   5-tree/1-intro.rst
+   5-tree/2-bst.rst
