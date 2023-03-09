@@ -55,3 +55,9 @@ Contents
 
    5-tree/1-intro.rst
    5-tree/2-bst.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data Structures - Hash Table
+
+   6-hash_tables/1-intro.rst
