@@ -56,6 +56,12 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: Recursion
+
+   6-recursion/1-intro.rst
+
+.. toctree::
+   :maxdepth: 2
    :caption: Data Structures - Tree
 
    7-tree/1-intro.rst
