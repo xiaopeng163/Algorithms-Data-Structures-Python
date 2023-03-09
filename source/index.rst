@@ -48,16 +48,22 @@ Contents
    4-stacks_queues/1-stacks.rst
    4-stacks_queues/2-queues.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Data Structures - Hash Table
+
+   5-hash_tables/1-intro.rst
 
 .. toctree::
    :maxdepth: 2
    :caption: Data Structures - Tree
 
-   5-tree/1-intro.rst
-   5-tree/2-bst.rst
+   7-tree/1-intro.rst
+   7-tree/2-bst.rst
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Data Structures - Hash Table
+   :caption: Data Structures - Graphs
 
-   6-hash_tables/1-intro.rst
+   8-graphs/1-intro.rst
