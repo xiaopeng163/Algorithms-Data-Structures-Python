@@ -28,7 +28,3 @@ There are seven common types of big O notations. These include: (orderd from bes
 -------------------
 
 请参考 https://www.bigocheatsheet.com/
-
-.. literalinclude:: ../_code/1-introduction/bigo.py
-   :language: python
-   :linenos:

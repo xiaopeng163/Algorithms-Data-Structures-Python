@@ -22,6 +22,7 @@ Contents
    1-introduction/1-data_structure
    1-introduction/2-algorithms.rst
    1-introduction/3-bigo.rst
+   1-introduction/4-bigo-py.rst
 
 .. toctree::
    :maxdepth: 2
