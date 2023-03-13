@@ -19,23 +19,10 @@ To create a list, you simply need to put a comma-separated list of values in squ
 C++ 例子
 ------------
 
+.. literalinclude:: ../_code/2-array/array.cpp
+   :language: c++
+   :linenos:
 
-
-.. code-block:: c++
-
-    // filename array.cpp
-    #include <iostream> // header file for taking input and producing output
-    using namespace std;
-
-    int main()
-    {
-        int arr[4] = {1, 3, 5, 3}; // initializing an array of size 4
-
-        cout << arr[3] << "\n"; // gives the element at index 3
-        cout << arr[2] << "\n"; // gives the element at index 2
-
-        return 0;
-    }
 
 运行
 
