@@ -15,6 +15,32 @@ def is_palindrome(s):
     return True
 
 
+def leetcode_valid_palindrome(s: str) -> bool:
+
+    # https://leetcode.com/problems/valid-palindrome/
+
+    if len(s) == 0:
+        return True
+    start = 0
+    end = len(s) - 1
+
+    while start < end:
+        while start < end and not s[start].isalnum():
+            start += 1
+        while start < end and not s[end].isalnum():
+            end -= 1
+
+        if s[start].lower() != s[end].lower():
+            return False
+
+        start += 1
+        end -= 1
+
+    return True
+
+
 if __name__ == "__main__":
     s = "abba"
     print(is_palindrome(s))
+    s = "1A man, a plan, a canal: Panama1"
+    print(leetcode_valid_palindrome(s))
