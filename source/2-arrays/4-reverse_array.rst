@@ -11,6 +11,10 @@ Solution Steps
 .. image:: ../_static/array/reverse-an-array.gif
    :width: 700px
 
+.. literalinclude:: ../_code/2-array/reverse_array.py
+   :language: python
+   :linenos:
+
 
 相关练习
 ------------
@@ -20,7 +24,10 @@ Integer reversion
 
 https://leetcode.com/problems/reverse-integer/
 
-see code example ``code/array/reverse_integer.py``
+
+.. literalinclude:: ../_code/2-array/reverse_integer.py
+   :language: python
+   :linenos:
 
 
 Palindrome Problem
@@ -31,6 +38,10 @@ https://en.wikipedia.org/wiki/Palindrome
 
 .. image:: ../_static/array/palindrome.png
    :width: 700px
+
+.. literalinclude:: ../_code/2-array/palindrome.py
+   :language: python
+   :linenos:
 
 
 LeetCode
@@ -44,9 +55,6 @@ https://leetcode.com/problems/longest-palindromic-substring/
 https://leetcode.com/problems/longest-palindromic-subsequence/
 
 https://leetcode.com/problems/palindromic-substrings/
-
-
-solution ``code/array/palindrome.py``
 
 
 Dutch National Flag Problem
@@ -82,8 +90,9 @@ LeetCode
 
 https://leetcode.com/problems/sort-colors/
 
-
-solution in Python ``code/array/dutch_flag.py``
+.. literalinclude:: ../_code/2-array/dutch_flag.py
+   :language: python
+   :linenos:
 
 
 Trapping Rain Water Problem
@@ -95,7 +104,10 @@ LeetCode
 
 https://leetcode.com/problems/trapping-rain-water/
 
-solution in python  ``array/trapping_water.py``
+.. literalinclude:: ../_code/2-array/trapping_water.py
+   :language: python
+   :linenos:
+
 
 Anagram Problem
 -----------------------
@@ -107,3 +119,7 @@ https://leetcode.com/problems/valid-anagram/
 https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
 https://leetcode.com/problems/group-anagrams/
+
+.. literalinclude:: ../_code/2-array/anagram.py
+   :language: python
+   :linenos:
