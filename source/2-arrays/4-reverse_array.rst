@@ -98,11 +98,10 @@ https://leetcode.com/problems/sort-colors/
 Trapping Rain Water Problem
 ------------------------------------
 
-https://algodaily.com/challenges/trapping-rain-water
-
 LeetCode
 
 https://leetcode.com/problems/trapping-rain-water/
+
 
 .. literalinclude:: ../_code/2-array/trapping_water.py
    :language: python
