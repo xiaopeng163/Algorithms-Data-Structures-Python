@@ -41,6 +41,7 @@ Contents
    3-linked_list/1-linked_list.rst
    3-linked_list/2-operations.rst
    3-linked_list/3-linked_list_py.rst
+   3-linked_list/4-leetcode-practise.rst
 
 .. toctree::
    :maxdepth: 2
