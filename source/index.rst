@@ -49,6 +49,7 @@ Contents
 
    4-stacks_queues/1-stacks.rst
    4-stacks_queues/2-queues.rst
+   4-stacks_queues/3-practise.rst
 
 .. toctree::
    :maxdepth: 2
