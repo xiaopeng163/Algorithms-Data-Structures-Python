@@ -34,7 +34,7 @@ Binary Search Tree (二叉搜索树)
 满二叉树（Full Binary Tree），也称为真二叉树或者严格二叉树，是一种特殊的二叉树，其中每个非叶子节点都恰好有两个子节点，并且所有叶子节点都在相同的深度上。
 
 .. image:: ../_static/6-tree/full-binary-tree.PNG
-   :width: 700px
+   :width: 400px
 
 .. image:: ../_static/6-tree/full-perfect.PNG
-   :width: 700px
+   :width: 400px
