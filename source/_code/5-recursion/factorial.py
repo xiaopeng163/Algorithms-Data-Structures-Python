@@ -5,4 +5,6 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
-print(factorial(3))
+r = factorial(4)
+
+print(r)

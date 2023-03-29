@@ -61,8 +61,8 @@ Contents
    :maxdepth: 2
    :caption: Data Structures - Tree
 
-   7-tree/1-intro.rst
-   7-tree/2-bst.rst
+   6-tree/1-intro.rst
+   6-tree/2-bst.rst
 
 
 .. toctree::
