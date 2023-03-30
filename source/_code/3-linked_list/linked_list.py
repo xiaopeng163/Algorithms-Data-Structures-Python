@@ -69,25 +69,35 @@ class LinkedList:
         self.tail = temp
         return temp
 
-    def reverse(self):
-        # O(N)
-        if self.head == None:
-            return
-        if self.head.next == None:
-            return
+    def reverse(self, head):
+        # # O(N)
+        # if self.head == None:
+        #     return
+        # if self.head.next == None:
+        #     return
 
-        prev = None
-        curr = self.head
-        after = curr.next
+        # prev = None
+        # curr = self.head
+        # after = curr.next
 
-        while after:
-            curr.next = prev
-            prev = curr
-            curr = after
-            after = after.next
+        # while after:
+        #     curr.next = prev
+        #     prev = curr
+        #     curr = after
+        #     after = after.next
 
-        curr.next = prev
-        self.head, self.tail = self.tail, self.head
+        # curr.next = prev
+        # self.head, self.tail = self.tail, self.head
+        if not self.head:
+            return None
+
+        new_head = self.head
+        if self.head.next:
+            new_head = self.reverse(head=self.head.next)
+            self.head.next.next = self.head
+
+        self.head.next = None
+        return new_head
 
 
 if __name__ == "__main__":
@@ -101,6 +111,6 @@ if __name__ == "__main__":
     linkedlist.prepend(0)
     linkedlist.print_list()
 
-    linkedlist.reverse()
+    linkedlist.reverse(linkedlist.head)
 
     linkedlist.print_list()

@@ -9,3 +9,11 @@ Introduction
 .. literalinclude:: ../_code/5-recursion/factorial.py
    :language: python
    :linenos:
+
+
+LeetCode 练习
+-----------------
+
+.. literalinclude:: ../_code/5-recursion/linked_list.py.py
+   :language: python
+   :linenos:
