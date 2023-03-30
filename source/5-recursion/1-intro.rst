@@ -14,6 +14,8 @@ Introduction
 LeetCode 练习
 -----------------
 
+https://leetcode.com/problems/reverse-linked-list/ 递归法解决反转链表
+
 .. literalinclude:: ../_code/5-recursion/linked_list.py
    :language: python
    :linenos:
