@@ -14,6 +14,6 @@ Introduction
 LeetCode 练习
 -----------------
 
-.. literalinclude:: ../_code/5-recursion/linked_list.py.py
+.. literalinclude:: ../_code/5-recursion/linked_list.py
    :language: python
    :linenos:
