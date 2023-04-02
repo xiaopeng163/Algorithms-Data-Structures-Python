@@ -69,4 +69,4 @@ Contents
    :maxdepth: 2
    :caption: Data Structures - Graphs
 
-   8-graphs/1-intro.rst
+   7-graphs/1-intro.rst
