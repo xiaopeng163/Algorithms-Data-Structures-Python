@@ -4,6 +4,9 @@ class Node:
         self.left = None
         self.right = None
 
+    def __str__(self):
+        return str(self.value)
+
 
 class BinarySearchTree:
     def __init__(self) -> None:
@@ -67,12 +70,36 @@ class BinarySearchTree:
 
         return self._r_search(self.root, value)
 
+    def _r_insert(self, current_root, value):
+        if current_root == None:
+            return Node(value)
+
+        if value < current_root.value:
+            current_root.left = self._r_insert(
+                current_root=current_root.left, value=value
+            )
+        if value > current_root.value:
+            current_root.right = self._r_insert(
+                current_root=current_root.right, value=value
+            )
+        if value == current_root.value:
+            return current_root
+
+    def r_insert(self, value):
+
+        if self.root is None:
+            self.root = Node(value)
+
+        self._r_insert(self.root, value)
+
 
 if __name__ == "__main__":
 
     bst = BinarySearchTree()
 
-    for i in [8, 3, 10, 1, 6, 9, 14]:
-        bst.insert(i)
+    for i in [8, 3, 10, 10]:
+        bst.r_insert(i)
 
-    print(bst.r_search(10))
+    print(bst.root)
+    print(bst.root.left)
+    print(bst.root.right)
