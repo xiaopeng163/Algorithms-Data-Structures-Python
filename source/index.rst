@@ -70,3 +70,4 @@ Contents
    :caption: Data Structures - Graphs
 
    7-graphs/1-intro.rst
+   7-graphs/2-represent.rst
