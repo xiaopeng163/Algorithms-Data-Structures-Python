@@ -71,3 +71,5 @@ Contents
 
    7-graphs/1-intro.rst
    7-graphs/2-represent.rst
+   7-graphs/3-bigo.rst
+
