@@ -32,12 +32,26 @@ class Graph:
             return True
         return False
 
+    def delete_vertex(self, vertex):
+        if vertex not in self.adj_list:
+            return False
+        for other_vertex in self.adj_list[vertex]:
+            self.adj_list[other_vertex].remove(vertex)
+        del self.adj_list[vertex]
+        return True
+
 
 graph = Graph()
 graph.add_vertex("A")
 graph.add_vertex("B")
+graph.add_vertex("C")
+graph.add_vertex("D")
 graph.add_edge("A", "B")
-graph.add_edge("A", "B")
+graph.add_edge("A", "C")
+graph.add_edge("B", "C")
+print("before delete vertex: ")
 graph.print_graph()
-graph.delete_edge("A", "B")
+graph.delete_vertex("D")
+graph.delete_vertex("C")
+print("after delete vertex: ")
 graph.print_graph()
