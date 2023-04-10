@@ -74,3 +74,9 @@ Contents
    7-graphs/3-bigo.rst
    7-graphs/4-implement.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Tree Traversal - 树的遍历
+
+   8-tree-traversal/1-intro.rst
+
