@@ -39,25 +39,10 @@ class BinarySearchTree:
                 else:
                     tmp_root = tmp_root.right
 
-    def search(self, value):
-
-        tmp = self.root
-
-        while tmp is not None:
-
-            if value < tmp.value:
-                tmp = tmp.left
-            elif value > tmp.value:
-                tmp = tmp.right
-
-            else:
-                return True
-        return False
-
     def bfs(self):
-        current_node = self.root
         node_queue = []
         results = []
+        current_node = self.root
         node_queue.append(current_node)
 
         while len(node_queue) > 0:

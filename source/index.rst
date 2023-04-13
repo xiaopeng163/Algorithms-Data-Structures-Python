@@ -79,4 +79,5 @@ Contents
    :caption: Tree Traversal - 树的遍历
 
    8-tree-traversal/1-intro.rst
+   8-tree-traversal/2-BFS.rst
 
