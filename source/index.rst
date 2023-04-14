@@ -80,4 +80,5 @@ Contents
 
    8-tree-traversal/1-intro.rst
    8-tree-traversal/2-BFS.rst
+   8-tree-traversal/3-DFS.rst
 
