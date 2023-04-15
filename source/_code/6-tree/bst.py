@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     bst = BinarySearchTree()
 
-    for i in [8, 3, 10, 10]:
+    for i in [8, 3, 10, 1]:
         bst.r_insert(i)
 
     print(bst.root)
