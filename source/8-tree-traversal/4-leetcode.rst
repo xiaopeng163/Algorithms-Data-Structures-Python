@@ -22,5 +22,3 @@ https://leetcode.com/problems/validate-binary-search-tree/
 
 - 按二叉搜索树的定义，暴力比较
 - 按In order遍历这个树，然后对遍历结果进行检查，看是否是顺序排列
-
-https://www.enjoyalgorithms.com/blog/validate-binary-search-tree
