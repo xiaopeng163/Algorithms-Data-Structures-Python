@@ -63,6 +63,7 @@ Contents
 
    6-tree/1-intro.rst
    6-tree/2-bst.rst
+   6-tree/3-leetcode.rst
 
 
 .. toctree::
