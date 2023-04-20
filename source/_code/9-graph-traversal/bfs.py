@@ -11,19 +11,19 @@ visited = []  # List for visited nodes.
 queue = []  # Initialize a queue
 
 
-def bfs(visited, graph, node):  # function for BFS
+def bfs(graph, node):  # function for BFS
+
     visited.append(node)
     queue.append(node)
 
-    while queue:  # Creating loop to visit each node
+    while queue:
         m = queue.pop(0)
-        for neighbour in graph[m]:
-            if neighbour not in visited:
-                visited.append(neighbour)
-                queue.append(neighbour)
+        for neighbor in graph[m]:
+            if neighbor not in visited:
+                visited.append(neighbor)
+                queue.append(neighbor)
 
 
-# Driver Code
-print("Following is the Breadth-First Search")
-bfs(visited, graph, "v1")  # function calling
+bfs(graph=graph, node="v1")
+
 print(visited)

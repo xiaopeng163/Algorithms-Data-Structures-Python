@@ -84,3 +84,8 @@ Contents
    8-tree-traversal/3-DFS.rst
    8-tree-traversal/4-leetcode.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Graph Traversal - 图的遍历
+
+   9-graph-traversal/1-intro.rst
