@@ -13,10 +13,11 @@ visited = []
 stack = deque()
 
 
-def dfs(graph, node):  # function for dfs
+def dfs(graph, node):
 
     stack.append(node)
     while len(stack) > 0:
+
         node = stack.pop()
         if node not in visited:
             visited.append(node)
@@ -25,7 +26,5 @@ def dfs(graph, node):  # function for dfs
                 stack.append(neighbor)
 
 
-# Driver Code
-print("Following is the Depth-First Search")
-dfs(graph, "v1")
+dfs(graph=graph, node="v1")
 print(visited)
