@@ -1,3 +1,5 @@
+from collections import deque
+
 graph = {
     "v1": ["v2", "v3", "v4"],
     "v2": ["v1", "v5", "v6"],
@@ -7,18 +9,23 @@ graph = {
     "v6": ["v2", "v4"],
 }
 
+visited = []
+stack = deque()
 
-visited = set()  # Set to keep track of visited nodes of graph.
 
+def dfs(graph, node):  # function for dfs
 
-def dfs(visited, graph, node):  # function for dfs
-    if node not in visited:
-        print(node)
-        visited.add(node)
-        for neighbour in graph[node]:
-            dfs(visited, graph, neighbour)
+    stack.append(node)
+    while len(stack) > 0:
+        node = stack.pop()
+        if node not in visited:
+            visited.append(node)
+        for neighbor in graph[node]:
+            if neighbor not in visited:
+                stack.append(neighbor)
 
 
 # Driver Code
 print("Following is the Depth-First Search")
-dfs(visited, graph, "v1")
+dfs(graph, "v1")
+print(visited)
