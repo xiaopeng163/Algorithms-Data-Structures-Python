@@ -91,3 +91,11 @@ Contents
    9-graph-traversal/1-intro.rst
    9-graph-traversal/2-bfs.rst
    9-graph-traversal/3-dfs.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Basic Sort - 基本排序
+
+   10-basic-sort/1-bubble-sort.rst
+   10-basic-sort/2-select-sort.rst
+   10-basic-sort/3-insert-sort.rst
