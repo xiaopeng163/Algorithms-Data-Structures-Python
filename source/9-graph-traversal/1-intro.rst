@@ -2,8 +2,6 @@
 ===================
 
 
-
-
-https://favtutor.com/blogs/breadth-first-search-python
-
-https://favtutor.com/blogs/depth-first-search-python
+.. image:: ../_static/7-graph/graph-traversal.png
+   :width: 700px
+   :alt: graph

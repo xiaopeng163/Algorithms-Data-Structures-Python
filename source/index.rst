@@ -89,3 +89,5 @@ Contents
    :caption: Graph Traversal - 图的遍历
 
    9-graph-traversal/1-intro.rst
+   9-graph-traversal/2-bfs.rst
+   9-graph-traversal/3-dfs.rst
