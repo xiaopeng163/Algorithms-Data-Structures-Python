@@ -99,3 +99,9 @@ Contents
    10-basic-sort/1-bubble-sort.rst
    10-basic-sort/2-select-sort.rst
    10-basic-sort/3-insert-sort.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Merge Sort - 归并排序
+
+   11-merge-sort/1-merge-sort.rst
