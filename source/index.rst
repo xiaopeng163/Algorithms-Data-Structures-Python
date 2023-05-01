@@ -105,3 +105,9 @@ Contents
    :caption: Merge Sort - 归并排序
 
    11-merge-sort/1-merge-sort.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Quick Sort - 快排
+
+   12-quick-sort/1-quick-sort.rst
