@@ -9,8 +9,7 @@ Data Structures and Algorithms for Python
 
 .. note::
 
-   此文档是用于本人的在线课程《数据结构和算法 Data Structures and Algorithms
-》 https://www.udemy.com/course/data-structures-and-algorithms-py/?referralCode=2FE5BA94D9B710AFF098 仅供参考
+   此文档是用于本人的在线课程《数据结构和算法 Data Structures and Algorithms》 https://www.udemy.com/course/data-structures-and-algorithms-py/?referralCode=2FE5BA94D9B710AFF098 仅供参考
 
 
 Contents
