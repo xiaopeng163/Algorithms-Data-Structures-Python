@@ -1,10 +1,10 @@
-def pivot(my_list):
+def pivot(my_list, start_index, end_index):
 
-    pivot_index = 0
-    swap_index = 0
+    pivot_index = start_index
+    swap_index = pivot_index
     swap = False
 
-    for i in range(pivot_index + 1, len(my_list)):
+    for i in range(pivot_index + 1, end_index + 1):
 
         if my_list[i] < my_list[pivot_index]:
 
@@ -24,7 +24,22 @@ def pivot(my_list):
         my_list[pivot_index],
     )
 
+    return swap_index
+
 
 my_list = [6, 5, 3, 1, 8, 7, 2, 4]
-pivot(my_list)
+
+
+def quick_sort(my_list, start_index, end_index):
+
+    if start_index < end_index:
+
+        pivot_index = pivot(my_list, start_index, end_index)
+
+        quick_sort(my_list, start_index, pivot_index)
+        quick_sort(my_list, pivot_index + 1, end_index)
+
+
+quick_sort(my_list, 0, len(my_list) - 1)
+
 print(my_list)
