@@ -18,5 +18,8 @@ Adjacency List
    :width: 700px
 
 
-.. image:: ../_static/7-graph/tree-present.PNG
+.. image:: ../_static/7-graph/adjacency_list-a.png
+   :width: 700px
+
+.. image:: ../_static/7-graph/adjacency_list-b.png
    :width: 700px
